@@ -1,6 +1,6 @@
 {
 	"manifests": {
-		"https://iiif.harvardartmuseums.org/manifests/object/299843": {
+		"https://dms-data.stanford.edu/data/manifests/Parker/wz026zp2442/manifest.json": {
 			"provider": "Harvard University"
 		},
 		"https://media.nga.gov/public/manifests/nga_highlights.json": {
@@ -8,7 +8,7 @@
 		}
 	},
 	"windows": [{
-			"manifestId": "https://media.nga.gov/public/manifests/nga_highlights.json",
+			"manifestId": "https://dms-data.stanford.edu/data/manifests/Parker/wz026zp2442/manifest.jsonn",
 			"canvasIndex": 0
 		},
 		{
