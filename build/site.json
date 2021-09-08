@@ -10,9 +10,9 @@
 		"footer": "&copy; The National Gallery 2021",
 		"extra_logos": {
 			"github": {
-				"link": "https://github.com/jpadfield/simple-site",
+				"link": "https://github.com/am2539/simple-site-template",
 				"logo": "graphics/github logo white.png",
-				"alt": "GitHub Jpadfield Simple-site"
+				"alt": "GitHub am2539 Simple-site Template"
 			}
 		},
 		"extra_js_scripts": [],
