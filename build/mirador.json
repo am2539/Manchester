@@ -1,19 +1,19 @@
 {
 	"manifests": {
-		"https://dms-data.stanford.edu/data/manifests/Parker/wz026zp2442/manifest.json": {
-			"provider": "Harvard University"
+		"https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100123802477.0x000001/manifest.json": {
+			"provider": "The British Library"
 		},
-		"https://media.nga.gov/public/manifests/nga_highlights.json": {
-			"provider": "National Gallery of Art"
+		"https://dms-data.stanford.edu/data/manifests/Parker/sk095st1718/manifest.json":{
+			"provider": "The Parker Library, Corpus Christi College, Cambridge"
 		}
-	},
+	}
 	"windows": [{
-			"manifestId": "https://dms-data.stanford.edu/data/manifests/Parker/wz026zp2442/manifest.jsonn",
-			"canvasIndex": 0
+			"manifestId": "https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100123802477.0x000001/manifest.json",
+			"canvasIndex": 14
 		},
 		{
-			"manifestId": "https://iiif.harvardartmuseums.org/manifests/object/299843",
-			"canvasIndex": 3
+			"manifestId": "https://dms-data.stanford.edu/data/manifests/Parker/sk095st1718/manifest.json",
+			"canvasIndex": 69
 		}
 	]
 }
