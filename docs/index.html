@@ -14,7 +14,14 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.css" integrity="sha256-BNdodQbWHpU3HT8xGhkEusT4ch4HEjvwzcbDcVuHR+E=" crossorigin="anonymous" rel="stylesheet" type="text/css">
 	<link href="css/main.css" rel="stylesheet" type="text/css">
     <style>
+    .openseadragon
+{
     
+    height:     500px;
+    border:     1px solid black;
+    color:      #333; /* text color for messages */
+    background-color: black;
+}
     </style>
     <!-- Global site tag (gtag.js) - Google Analytics - Only added in if the 'GoogleAnalyticsID' i set in the site.json file-->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-BQV11QKCED"></script>
@@ -84,7 +91,102 @@
 			 <div class="col-12 col-md-12">          
 				
 				<div class="p-2 bg-light border rounded-3 jumbotron">
-      <div class="container-fluid py-4"><h3>INSERT TITLE HERE</h3></div></div><div class="row"><div class="col-12 col-lg-12"></div><!--/span--></div><!--/row-->    <div class="row"><div class="col-12 col-lg-12"><p>INSERT INTRODUCTORY TEXT HERE.</p><p>To insert a static image, replace the URL in the centre of this code: <figure class="figure"><img src="https://raw.githubusercontent.com/am2539/am2539.LRBS-simple-site/master/docs/graphics/images/Static_Image.png" class="figure-img img-fluid rounded" alt="This is where you can add the alt text for the image"><figcaption class="figure-caption">There is also the option to add a caption to any image.</figcaption></figure><div class="foonote"><ul></ul></div></div><!--/span--></div><!--/row-->    <br/>
+      <div class="container-fluid py-4"><h3>INSERT TITLE HERE</h3></div></div><div class="row"><div class="col-12 col-lg-12"></div><!--/span--></div><!--/row-->    <div class="row"><div class="col-lg-6"><p>INSERT INTRODUCTORY TEXT HERE.</p><p>To add an image to your page you have two options: <p>To insert a static image, replace the URL in the centre of this code and update the alternative text and caption (if either is desired): "<figure class="figure"><img src="https://raw.githubusercontent.com/am2539/am2539.LRBS-simple-site/master/docs/graphics/images/Static_Image.png" class="figure-img img-fluid rounded" alt="This is where you can add the alternative text for the image"><figcaption class="figure-caption">There is also the option to add a caption to any image."<figure class="figure"><img src="https://raw.githubusercontent.com/am2539/am2539.LRBS-simple-site/master/docs/graphics/images/Static_Image.png" class="figure-img img-fluid rounded" alt="This is where you can add the alternative text for the image"><figcaption class="figure-caption">There is also the option to add a caption to any image.</figcaption></figure></p><p>To insert a 'zoom-able' single image you need a IIIF manifest. Ensure you have <b>"class":"openseardragon"<b> and <b>"file":"IIIF manifest goes here".</p><p>Given the above conditions you can use this code: "<figure class="figure"><div class="row" style="padding-left:16px;padding-right:16px;"><div class="col-12 col-lg-12"><div id="openseadragonviewerdiv" class="openseadragon"></div></div></div><figcaption style="padding-left:16px;padding-right:16px;" class="figure-caption">Peter Paul Rubens, Saint Bavo is received by Saints Amand and Floribert © The National Gallery, London. Holwell Carr Bequest, 1831. This image is licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC-BY-NC-ND 4.0</a>.</figcaption></figure>" amended appropriately to display the image<div class="foonote"><ul></ul></div></div><!--/span--><div class="col-lg-6"><figure class="figure">[##]<figcaption style="padding-left:16px;padding-right:16px;" class="figure-caption">Peter Paul Rubens, Saint Bavo is received by Saints Amand and Floribert © The National Gallery, London. Holwell Carr Bequest, 1831. This image is licensed under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC-BY-NC-ND 4.0</a>.</figcaption></figure><div class="foonote"><ul></ul></div></div><!--/span--></div><!--/row-->    <div class="row"><div class="col-12 col-lg-12">	<hr/>
+	<style>
+	details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: .5em .5em 0;
+}
+
+summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+}
+
+details[open] {
+    padding: .5em;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+}
+	</style>
+	<details>
+	<summary>Display the full code used to define this page.</summary>
+	<br/>
+		<h3>Page JSON Object</h3>
+	<figure>
+		<pre style="overflow-y: auto;overflow-x: hidden; border: 2px solid black;padding: 10px;max-height:400px;"><code>{
+    &quot;parent&quot;: &quot;&quot;,
+    &quot;class&quot;: &quot;openseadragon&quot;,
+    &quot;file&quot;: &quot;https://media.ng-london.org.uk/ng/NG57.1&quot;,
+    &quot;title&quot;: &quot;INSERT TITLE HERE&quot;,
+    &quot;content&quot;: &quot;&lt;p&gt;INSERT INTRODUCTORY TEXT HERE.&lt;/p&gt;&lt;p&gt;To add an image to your page you have two options: &lt;p&gt;To insert a static image, replace the URL in the centre of this code and update the alternative text and caption (if either is desired): \&quot;&lt;figure class=\&quot;figure\&quot;&gt;&lt;img src=\&quot;https://raw.githubusercontent.com/am2539/am2539.LRBS-simple-site/master/docs/graphics/images/Static_Image.png\&quot; class=\&quot;figure-img img-fluid rounded\&quot; alt=\&quot;This is where you can add the alternative text for the image\&quot;&gt;&lt;figcaption class=\&quot;figure-caption\&quot;&gt;There is also the option to add a caption to any image.\&quot;&lt;figure class=\&quot;figure\&quot;&gt;&lt;img src=\&quot;https://raw.githubusercontent.com/am2539/am2539.LRBS-simple-site/master/docs/graphics/images/Static_Image.png\&quot; class=\&quot;figure-img img-fluid rounded\&quot; alt=\&quot;This is where you can add the alternative text for the image\&quot;&gt;&lt;figcaption class=\&quot;figure-caption\&quot;&gt;There is also the option to add a caption to any image.&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;&lt;p&gt;To insert a 'zoom-able' single image you need a IIIF manifest. Ensure you have &lt;b&gt;\&quot;class\&quot;:\&quot;openseardragon\&quot;&lt;b&gt; and &lt;b&gt;\&quot;file\&quot;:\&quot;IIIF manifest goes here\&quot;.&lt;/p&gt;&lt;p&gt;Given the above conditions you can use this code: \&quot;&lt;figure class=\&quot;figure\&quot;&gt;&lt;div class=\&quot;row\&quot; style=\&quot;padding-left:16px;padding-right:16px;\&quot;&gt;&lt;div class=\&quot;col-12 col-lg-12\&quot;&gt;&lt;div id=\&quot;openseadragonviewerdiv\&quot; class=\&quot;openseadragon\&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;figcaption style=\&quot;padding-left:16px;padding-right:16px;\&quot; class=\&quot;figure-caption\&quot;&gt;Peter Paul Rubens, Saint Bavo is received by Saints Amand and Floribert \u00a9 The National Gallery, London. Holwell Carr Bequest, 1831. This image is licensed under [CC-BY-NC-ND 4.0|https://creativecommons.org/licenses/by-nc-nd/4.0/].&lt;/figcaption&gt;&lt;/figure&gt;\&quot; amended appropriately to display the image&quot;,
+    &quot;content right&quot;: &quot;&lt;figure class=\&quot;figure\&quot;&gt;[##]&lt;figcaption style=\&quot;padding-left:16px;padding-right:16px;\&quot; class=\&quot;figure-caption\&quot;&gt;Peter Paul Rubens, Saint Bavo is received by Saints Amand and Floribert \u00a9 The National Gallery, London. Holwell Carr Bequest, 1831. This image is licensed under &lt;a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'&gt;CC-BY-NC-ND 4.0&lt;/a&gt;.&lt;/figcaption&gt;&lt;/figure&gt;&lt;div class=\&quot;foonote\&quot;&gt;&lt;ul&gt;&lt;/ul&gt;&lt;/div&gt;&quot;,
+    &quot;displaycode&quot;: true
+}</code></pre>
+		<figcaption class=\"figure-caption\">The complete JSON object used to define this content and layout of this page.</figcaption>
+	</figure>		<h3>Extra extension file</h3>
+	<figure>
+		<pre style="overflow-y: auto;overflow-x: hidden; border: 2px solid black;padding: 10px;max-height:400px;"><code>{
+    &quot;@context&quot;: &quot;http://iiif.io/api/presentation/2/context.json&quot;,
+    &quot;@id&quot;: &quot;https://media.ng-london.org.uk/wz-info/NG57.1&quot;,
+    &quot;@type&quot;: &quot;sc:Manifest&quot;,
+    &quot;label&quot;: &quot;Saint Bavo is received by Saints Amand and Floribert&quot;,
+    &quot;license&quot;: &quot;https://www.nationalgallery.org.uk/terms-of-use&quot;,
+    &quot;attribution&quot;: &quot;\&quot;&lt;a href=\\\&quot;/artists/peter-paul-rubens\\\&quot;&gt;Peter Paul Rubens&lt;/a&gt;\&quot;&quot;,
+    &quot;logo&quot;: &quot;https://research.ng-london.org.uk/ng/graphics/ng_logo_tr_125.png&quot;,
+    &quot;metadata&quot;: [
+        {
+            &quot;label&quot;: &quot;Image Description&quot;,
+            &quot;value&quot;: &quot;&lt;p&gt;These three oil paintings are preliminary sketches, or modelli, for an altarpiece that was commissioned by Bishop Maes around 1611 for St Bavo&amp;rsquo;s Cathedral, Ghent. Although it was used as a plan, the central panel is highly detailed and vividly coloured. It is thought this is the sketch Rubens referred to in 1614 when he wrote to the Archduke Albert, asking for his help in securing the commission after the death of Bishop Maes caused a delay to its progress.&lt;/p&gt;&lt;p&gt;The central panel shows Saint Bavo, a Roman solider who defied the edict of the Emperor Mauritius by renouncing his role in the military and becoming a monk in the Christian Church (before his conversion, he was called Count Allowin of Haspengouw). This story was recounted in a biography of the saint that appeared in 1583, written by the theologian Joannes Molanus. In Rubens&amp;rsquo;s picture, Saint Bavo&amp;rsquo;s worldly possessions are given away &amp;ndash; his riches are being offered to a group of beggars &amp;ndash; as he is received into the Benedictine Order by Saints Amand and Floribert. A cleric holds a black habit for him to wear instead of his armour.&lt;/p&gt;&lt;p&gt;The left panel of the altarpiece depicts Saint Bavo&amp;rsquo;s sisters, Saints Gertrude and Begga, who followed in their brother&amp;rsquo;s footsteps by becoming nuns. Gertrude tilts her head back and raises her eyes as if towards heaven; Begga leans towards her companion, who wears a white headdress; this may be Saint Bavo&amp;rsquo;s daughter, Saint Agletrude. The women are surrounded by a group of onlookers, most of whom gaze towards the scene in the central panel. In the right panel, King Clothar and his son King Dagobert argue with a herald of the Emperor. The man thrusts a scroll towards the kings that contains an edict from Mauritius, forbidding his soldiers from entering the Church.&lt;/p&gt;&lt;p&gt;There are some pentimenti in the oil sketches, which can primarily be seen using X-radiography and infrared reflectography. In the central panel, for example, the face of the deacon who stands behind Saint Amand has been altered, and there may have been the head and hand of another beggar just to the left of the man who hands out Saint Bavo&amp;rsquo;s money. The positions of some of the children surrounding the mother in the foreground have also been changed.&lt;/p&gt;&quot;
+        }
+    ],
+    &quot;description&quot;: &quot;-&quot;,
+    &quot;viewingDirection&quot;: &quot;left-to-right&quot;,
+    &quot;viewingHint&quot;: &quot;individuals&quot;,
+    &quot;sequences&quot;: [
+        {
+            &quot;@id&quot;: &quot;https://media.ng-london.org.uk/public/manifests/sequence/normal.json&quot;,
+            &quot;@type&quot;: &quot;sc:Sequence&quot;,
+            &quot;label&quot;: &quot;Normal Order&quot;,
+            &quot;canvases&quot;: [
+                {
+                    &quot;@id&quot;: &quot;https://media.ng-london.org.uk/ng-iiif?IIIF=/fronts/N-0057-01-000056-WZ-PYR.tif/info.json&quot;,
+                    &quot;@type&quot;: &quot;sc:Canvas&quot;,
+                    &quot;label&quot;: &quot;Saint Bavo is received by Saints Amand and Floribert&quot;,
+                    &quot;height&quot;: 6000,
+                    &quot;width&quot;: 4676,
+                    &quot;images&quot;: [
+                        {
+                            &quot;@type&quot;: &quot;oa:Annotation&quot;,
+                            &quot;motivation&quot;: &quot;sc:painting&quot;,
+                            &quot;resource&quot;: {
+                                &quot;@id&quot;: &quot;https://media.ng-london.org.uk/ng-iiif?IIIF=/fronts/N-0057-01-000056-WZ-PYR.tif/full/full/0/default.jpg&quot;,
+                                &quot;@type&quot;: &quot;dctypes:Image&quot;,
+                                &quot;format&quot;: &quot;image/jpeg&quot;,
+                                &quot;height&quot;: 6000,
+                                &quot;width&quot;: 4676,
+                                &quot;service&quot;: {
+                                    &quot;@context&quot;: &quot;http://iiif.io/api/image/2/context.json&quot;,
+                                    &quot;@id&quot;: &quot;https://media.ng-london.org.uk/ng-iiif?IIIF=/fronts/N-0057-01-000056-WZ-PYR.tif&quot;,
+                                    &quot;profile&quot;: &quot;http://iiif.io/api/image/2/level2.json&quot;
+                                }
+                            },
+                            &quot;on&quot;: &quot;https://media.ng-london.org.uk/ng-iiif?IIIF=/fronts/N-0057-01-000056-WZ-PYR.tif/info.json&quot;
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}</code></pre>
+		<figcaption class=\"figure-caption\">The complete extension file used to define extra content included in this page.</figcaption>
+	</figure>	
+	</details></div><!--/span--></div><!--/row-->    <br/>
 			</div><!--/span-->
 			
 			
@@ -105,8 +207,18 @@
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/tether@2.0.0/dist/js/tether.min.js" integrity="sha256-cExSEm1VrovuDNOSgLk0xLue2IXxIvbKV1gXuCqKPLE=" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha256-d+FygkWgwt59CFkWPuCB4RE6p1/WiUYCy16w1+c5vKk=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/openseadragon@2.4.2/build/openseadragon/openseadragon.min.js" integrity="sha256-NMxPj6Qf1CWCzNQfKoFU8Jx18ToY4OWgnUO1cJWTWuw=" crossorigin="anonymous"></script>
     <script>
-			
+				$(function() {
+
+var myOSDInstance = OpenSeadragon({
+					id:            "openseadragonviewerdiv",
+          prefixUrl:     "https://openseadragon.github.io/openseadragon/images/",
+          sequenceMode:  true,
+          tileSources:   ["https://media.ng-london.org.uk/ng-iiif?IIIF=/fronts/N-0057-01-000056-WZ-PYR.tif/info.json",
+]
+          });  
+     });
 			function onLoad() {
 				$(function() {
   // ------------------------------------------------------- //
