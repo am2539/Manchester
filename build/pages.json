@@ -1,8 +1,11 @@
 {
 "home": {
 	"title": "INSERT TITLE HERE",
-	"content": "<p>INSERT INTRODUCTORY TEXT HERE.</p><p>To insert a static image, replace the URL in the centre of this code: <figure class=\"figure\"><img src=\"https://raw.githubusercontent.com/am2539/am2539.LRBS-simple-site/master/docs/graphics/images/Static_Image.png\" class=\"figure-img img-fluid rounded\" alt=\"This is where you can add the alt text for the image\"><figcaption class=\"figure-caption\">There is also the option to add a caption to any image.</figcaption></figure>",
-	"content right": ""	
+	"class": "openseadragon",
+	"file": "https://media.ng-london.org.uk/ng/NG57.1",
+	"content": "<p>INSERT INTRODUCTORY TEXT HERE.</p><p>To add an image to your page you have two options: <p>To insert a static image, replace the URL in the centre of this code and update the alternative text and caption (if either is desired): \"<figure class=\"figure\"><img src=\"https://raw.githubusercontent.com/am2539/am2539.LRBS-simple-site/master/docs/graphics/images/Static_Image.png\" class=\"figure-img img-fluid rounded\" alt=\"This is where you can add the alternative text for the image\"><figcaption class=\"figure-caption\">There is also the option to add a caption to any image.\"<figure class=\"figure\"><img src=\"https://raw.githubusercontent.com/am2539/am2539.LRBS-simple-site/master/docs/graphics/images/Static_Image.png\" class=\"figure-img img-fluid rounded\" alt=\"This is where you can add the alternative text for the image\"><figcaption class=\"figure-caption\">There is also the option to add a caption to any image.</figcaption></figure></p><p>To insert a 'zoom-able' single image you need a IIIF manifest. Ensure you have <b>\"class\":\"openseardragon\"<b> and <b>\"file\":\"IIIF manifest goes here\".</p><p>Given the above conditions you can use this code: \"<figure class=\"figure\">[##]<figcaption style=\"padding-left:16px;padding-right:16px;\" class=\"figure-caption\">Peter Paul Rubens, Saint Bavo is received by Saints Amand and Floribert \u00a9 The National Gallery, London. Holwell Carr Bequest, 1831. This image is licensed under [CC-BY-NC-ND 4.0|https://creativecommons.org/licenses/by-nc-nd/4.0/].</figcaption></figure>\" amended appropriately to display the image",
+	"content right": "<figure class=\"figure\">[##]<figcaption style=\"padding-left:16px;padding-right:16px;\" class=\"figure-caption\">Peter Paul Rubens, Saint Bavo is received by Saints Amand and Floribert \u00a9 The National Gallery, London. Holwell Carr Bequest, 1831. This image is licensed under [CC-BY-NC-ND 4.0|https://creativecommons.org/licenses/by-nc-nd/4.0/].</figcaption></figure>",
+	"displaycode": true
 	},
 "Technical Information": {
 	"title": "Simple Site Template",
