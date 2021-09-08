@@ -1,0 +1,1 @@
+https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100123802477.0x000001/manifest.json
