@@ -61,16 +61,7 @@
 		<ul aria-labelledby="dropdownMenu2" class="dropdown-menu border-0 shadow">
 			<li><a href="JSON.html" class="dropdown-item  top-item" title="Click to open the &ldquo;JSON&rdquo; page">
 				JSON</a></li>
-		<li class="dropdown-divider"></li><li><a href="site.json.html" class="dropdown-item">Site.json</a></li><li><a href="pages.json.html" class="dropdown-item">Pages.json</a></li></ul></li><!-- End Loop 2 --></ul></li><!-- End Loop 1 -->
-<li class="nav-item dropdown active">
-<!-- Dropdown Loop 1 -->
-<div class="btn-group">
-  <a href="extensions.html"><button type="button" class="btn nav-link" title="Click to open the &ldquo;Extensions&rdquo; page">
-  Extensions<span class="sr-only">(current)</span></button></a>
-  <button type="button" class="btn nav-link dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false"  title="Click to open the &ldquo;Extensions&rdquo; menu">
-    <span class="visually-hidden">Toggle Dropdown</span>
-  </button>
-  <ul class="dropdown-menu"><li><a href="Mirador%20IIIF%20viewer.html" class="dropdown-item">Mirador IIIF viewer</a></li></ul></li><!-- End Loop 1 --><li class="nav-item "><a class="nav-link" href="about.html">About</a></li></ul></div></li>
+		<li class="dropdown-divider"></li><li><a href="site.json.html" class="dropdown-item">Site.json</a></li><li><a href="pages.json.html" class="dropdown-item">Pages.json</a></li></ul></li><!-- End Loop 2 --><li><a href="extensions.html" class="dropdown-item">Extensions</a></li></ul></li><!-- End Loop 1 --><li class="nav-item "><a class="nav-link" href="about.html">About</a></li><li class="nav-item active"><a class="nav-link" href="Mirador%20IIIF%20viewer.html">Mirador IIIF viewer<span class="sr-only">(current)</span></a></li></ul></div></li>
 			
     <span class="navbar-text">
       			<a href="https://github.com/jpadfield/simple-site/">
@@ -84,13 +75,7 @@
 			 <div class="col-12 col-md-12">          
 				
 				<div class="p-2 bg-light border rounded-3 jumbotron">
-      <div class="container-fluid py-4"><h3>Simple Site - The <b>IIIF Mirador Extension</b></h3></div></div><div class="row"><div class="col-12 col-lg-12">		<div class="alert alert-light" role="alert" style="padding-bottom: 0px;border-color:#dee2e6;">
-		<nav  style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-			<ol class="breadcrumb">
-				<li class="breadcrumb-item"><a href="extensions.html">Extensions</a></li><li class="breadcrumb-item active" aria-current="page">Mirador IIIF viewer</li>
-			</ol>
-		</nav>
-		</div></div><!--/span--></div><!--/row-->    <div class="row"><div class="col-12 col-lg-12"><p>This extension uses the <a href='https://iiif.io'>IIIF</a> image viewer <a href='https://projectmirador.org/'>Mirador</a> to produce a customised presentation of a bespoke selection of IIIF manifests<sup><a id="ref1" href="#section1">[1]</a></sup>. It is an example of a special page that can be added to the <a href='pages.json.html'>pages.json</a> file.</p>
+      <div class="container-fluid py-4"><h3>Simple Site - The <b>IIIF Mirador Extension</b></h3></div></div><div class="row"><div class="col-12 col-lg-12"></div><!--/span--></div><!--/row-->    <div class="row"><div class="col-12 col-lg-12"><p>This extension uses the <a href='https://iiif.io'>IIIF</a> image viewer <a href='https://projectmirador.org/'>Mirador</a> to produce a customised presentation of a bespoke selection of IIIF manifests<sup><a id="ref1" href="#section1">[1]</a></sup>. It is an example of a special page that can be added to the <a href='pages.json.html'>pages.json</a> file.</p>
 
 <h3>The Example</h3>
 <div class="row" style="padding-left:16px;padding-right:16px;"><div class="col-12 col-lg-12"><div style="height:500px;position:relative" id="mirador"></div></div></div>
@@ -193,7 +178,7 @@ details[open] summary {
 		<h3>Page JSON Object</h3>
 	<figure>
 		<pre style="overflow-y: auto;overflow-x: hidden; border: 2px solid black;padding: 10px;max-height:400px;"><code>{
-    &quot;parent&quot;: &quot;extensions&quot;,
+    &quot;parent&quot;: &quot;&quot;,
     &quot;class&quot;: &quot;mirador&quot;,
     &quot;file&quot;: &quot;mirador.json&quot;,
     &quot;title&quot;: &quot;Simple Site - The &lt;b&gt;IIIF Mirador Extension&lt;/b&gt;&quot;,
