@@ -127,7 +127,26 @@ details[open] summary {
 		<figcaption class=\"figure-caption\">The complete JSON object used to define this content and layout of this page.</figcaption>
 	</figure>		<h3>Extra extension file</h3>
 	<figure>
-		<pre style="overflow-y: auto;overflow-x: hidden; border: 2px solid black;padding: 10px;max-height:400px;"><code>{<br>"manifests": {<br>"https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100123802477.0x000001/manifest.json": {<br>"provider": "The British Library"<br>},<br>"https://dms-data.stanford.edu/data/manifests/Parker/sk095st1718/manifest.json":{<br>"provider": "The Parker Library, Corpus Christi College, Cambridge"<br>}<br>}<br>"windows": [{<br>"manifestId": "https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100123802477.0x000001/manifest.json",<br>"canvasIndex": 14<br>},<br>{<br>"manifestId": "https://dms-data.stanford.edu/data/manifests/Parker/sk095st1718/manifest.json",<br>"canvasIndex": 69<br>}<br>]<br>}<br></code></pre>
+		<pre style="overflow-y: auto;overflow-x: hidden; border: 2px solid black;padding: 10px;max-height:400px;"><code>{
+    &quot;manifests&quot;: {
+        &quot;https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100123802477.0x000001/manifest.json&quot;: {
+            &quot;provider&quot;: &quot;The British Library&quot;
+        },
+        &quot;https://dms-data.stanford.edu/data/manifests/Parker/sk095st1718/manifest.json&quot;: {
+            &quot;provider&quot;: &quot;The Parker Library, Corpus Christi College, Cambridge&quot;
+        }
+    },
+    &quot;windows&quot;: [
+        {
+            &quot;manifestId&quot;: &quot;https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100123802477.0x000001/manifest.json&quot;,
+            &quot;canvasIndex&quot;: 14
+        },
+        {
+            &quot;manifestId&quot;: &quot;https://dms-data.stanford.edu/data/manifests/Parker/sk095st1718/manifest.json&quot;,
+            &quot;canvasIndex&quot;: 69
+        }
+    ]
+}</code></pre>
 		<figcaption class=\"figure-caption\">The complete extension file used to define extra content included in this page.</figcaption>
 	</figure>	
 	</details></div><!--/span--></div><!--/row-->    <br/>
@@ -157,8 +176,8 @@ details[open] summary {
 
 var myMiradorInstance = Mirador.viewer({
        id: "mirador",
-       windows: ,
-       manifests: [],
+       windows: [{"manifestId":"https:\/\/api.bl.uk\/metadata\/iiif\/ark:\/81055\/vdc_100123802477.0x000001\/manifest.json","canvasIndex":14},{"manifestId":"https:\/\/dms-data.stanford.edu\/data\/manifests\/Parker\/sk095st1718\/manifest.json","canvasIndex":69}],
+       manifests: {"https:\/\/api.bl.uk\/metadata\/iiif\/ark:\/81055\/vdc_100123802477.0x000001\/manifest.json":{"provider":"The British Library"},"https:\/\/dms-data.stanford.edu\/data\/manifests\/Parker\/sk095st1718\/manifest.json":{"provider":"The Parker Library, Corpus Christi College, Cambridge"}},
        
        
        });     
