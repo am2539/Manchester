@@ -7,6 +7,19 @@
 	"content right":"",
 	"displaycode": true
 	},
+"Teaching Resource": {
+		"title": "From Cottonopolis to Metropolis: Manchester Communities & Institutions",
+		"class": "",
+		"file": "",
+		"content": "<p><h2>Teaching Resource</h2></p><p><figure><iframe src=\"https://exhibit.so/exhibits/x1TZxKhzMDyF1T54unbZ?embedded=true\" width=\"100%\" height=\"700\" allowfullscreen frameborder=\"0\"></iframe></figure></p><p>    </p>",
+		"content right":""
+		},
+"Aims, Objectives, and Reflections": {
+		"class": "mirador",
+		"file": "mirador-complex.json",
+		"title": "Aims, Objectives, and Reflections",
+		"content": "[##]<p><h2>Aims and Objectives</h2></p><p>In choosing to focus on a single type of source, my aim is to get students to critically interrogate the purpose behind the creation of each of the objects, as well as see them as historical artifacts that reflect the social and economic climate in which they were made. In this session of the module, I'm focusing primarily on <b>aim i</b>, 'introducing a multi-disciplinary approach to the study of history' by giving primacy to resources which are often seen as supporting textual sources, but rarely interrogated critically in historical discourse and <b>aim iv</b>, 'enableing students to navigate the complex and conflicting motivations of individuals from a social, economic and political perspective' by asking them to look at the authorial motivations as well as the social and economic conditions which led to the creation of each map. I would fully expect that <b>aim iii</b> may come up in conversation, especially with regard to the final source, <i>Bacon's Large Scale Plan of Manchester and Salford<i>, especially in looking at the port and railway infrastructure that is highlighted in this source.</p><p>    </p><p><h2>Reflections</h2></p><p>When approaching this task, I fundamentally wished to choose three items of a similar genre, yet items which had significant differences which would serve as the basis for an in-class discussion about the way in which the format, size, presentation, and information provided in each source inform the viewer about the time, space and audience for which it was created, as well as considering the role of authorial intention.</p><p> In choosing to present a consolidated session about these objects in a digital space as well as a physical one, I wished to draw larger conclusions about the difference between a digital and physical object, and the ways in which the praxis of digitisation informs scholarly interpretation of these items. For instance, when seen digitally, these objects are all appear to be the same size, though they are not, thereby fundamentally skewing the way in which we are able to judge fundamental aspects of the objects' form. Similarly all of the maps appear to be on the same substrate, yet Bacon's map is printed on a linen paper blend -- perhaps especially apt for a map of Manchester -- yet virtually unknowable when one just considers the digital image.</p>"
+		},
 "Mirador viewer": {
 	"class": "mirador",
 	"file": "mirador.json",
