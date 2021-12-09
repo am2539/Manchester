@@ -8,7 +8,7 @@
     <meta name="author" content="Joseph Padfield| joseph.padfield@ng-london.org.uk |National Gallery | London UK | website@ng-london.org.uk |www.nationalgallery.org.uk" />
     <meta name="image" content="" />
     <link rel="icon" href="graphics/favicon.ico">
-    <title>NG Simple Site - Mirador viewer</title>
+    <title>NG Simple Site - Aims, Objectives, and Reflections</title>
     
 	<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/all.min.css" integrity="sha256-2H3fkXt6FEmrReK448mDVGKb3WW2ZZw35gI7vqHOE4Y=" crossorigin="anonymous" rel="stylesheet" type="text/css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.css" integrity="sha256-BNdodQbWHpU3HT8xGhkEusT4ch4HEjvwzcbDcVuHR+E=" crossorigin="anonymous" rel="stylesheet" type="text/css">
@@ -45,7 +45,7 @@
 				style="" alt="The National Gallery"/>
 		  </a>
 			<div class="collapse navbar-collapse" id="navbarsExampleDefault"><ul class="navbar-nav">
-<li class="nav-item "><a class="nav-link" href="index.html">Home</a></li><li class="nav-item "><a class="nav-link" href="Teaching%20Resource.html">Teaching Resource</a></li><li class="nav-item "><a class="nav-link" href="Aims,%20Objectives,%20and%20Reflections.html">Aims, Objectives, and Reflections</a></li><li class="nav-item active"><a class="nav-link" href="Mirador%20viewer.html">Mirador viewer<span class="sr-only">(current)</span></a></li>
+<li class="nav-item "><a class="nav-link" href="index.html">Home</a></li><li class="nav-item "><a class="nav-link" href="Teaching%20Resource.html">Teaching Resource</a></li><li class="nav-item active"><a class="nav-link" href="Aims,%20Objectives,%20and%20Reflections.html">Aims, Objectives, and Reflections<span class="sr-only">(current)</span></a></li><li class="nav-item "><a class="nav-link" href="Mirador%20viewer.html">Mirador viewer</a></li>
 <li class="nav-item dropdown ">
 <!-- Dropdown Loop 1 -->
 <div class="btn-group">
@@ -82,74 +82,7 @@
 			 <div class="col-12 col-md-12">          
 				
 				<div class="p-2 bg-light border rounded-3 jumbotron">
-      <div class="container-fluid py-4"><h3>Simple Site - The <b>IIIF Mirador Extension</b></h3></div></div><div class="row"><div class="col-12 col-lg-12"></div><!--/span--></div><!--/row-->    <div class="row"><div class="col-12 col-lg-12"><p>This extension uses the <a href='https://iiif.io'>IIIF</a> image viewer <a href='https://projectmirador.org/'>Mirador</a> to produce a customised presentation of a bespoke selection of IIIF manifests<sup><a id="ref1" href="#section1">[1]</a></sup>. It is an example of a special page that can be added to the <a href='pages.json.html'>pages.json</a> file. To change the objects displayed in the viewer, modify the <b>mirador.json</b> file found in the build folder in your Github Repository. Further information on the function of the viewer can be found under <a href='Mirador.html'>Extensions</a> in the Technical Information section of this page.</p>
-
-<h3>The Example</h3>
-<div class="row" style="padding-left:16px;padding-right:16px;"><div class="col-12 col-lg-12"><div style="height:500px;position:relative" id="mirador"></div></div></div>
-<br/>
-<div class="foonote"><ul><hr/><li id="section1"><a href="#ref1">[1]</a> IIIF manifests are simply a structured list of web based images resources that can be viewed in a IIIF compliant viewer, for more details see <a href='https://iiif.io/api/presentation/2.1/#table-of-contents'>https://iiif.io/api/presentation/2.1/#table-of-contents</a></li></ul></div></div><!--/span--></div><!--/row-->    <div class="row"><div class="col-12 col-lg-12">	<hr/>
-	<style>
-	details {
-    border: 1px solid #aaa;
-    border-radius: 4px;
-    padding: .5em .5em 0;
-}
-
-summary {
-    font-weight: bold;
-    margin: -.5em -.5em 0;
-    padding: .5em;
-}
-
-details[open] {
-    padding: .5em;
-}
-
-details[open] summary {
-    border-bottom: 1px solid #aaa;
-    margin-bottom: .5em;
-}
-	</style>
-	<details>
-	<summary>Display the full code used to define this page.</summary>
-	<br/>
-		<h3>Page JSON Object</h3>
-	<figure>
-		<pre style="overflow-y: auto;overflow-x: hidden; border: 2px solid black;padding: 10px;max-height:400px;"><code>{
-    &quot;parent&quot;: &quot;&quot;,
-    &quot;class&quot;: &quot;mirador&quot;,
-    &quot;file&quot;: &quot;mirador.json&quot;,
-    &quot;title&quot;: &quot;Simple Site - The &lt;b&gt;IIIF Mirador Extension&lt;/b&gt;&quot;,
-    &quot;content&quot;: &quot;&lt;p&gt;This extension uses the [IIIF|https://iiif.io] image viewer [Mirador|https://projectmirador.org/] to produce a customised presentation of a bespoke selection of IIIF manifests[@@IIIF manifests are simply a structured list of web based images resources that can be viewed in a IIIF compliant viewer, for more details see https://iiif.io/api/presentation/2.1/#table-of-contents]. It is an example of a special page that can be added to the [pages.json|pages.json.html] file. To change the objects displayed in the viewer, modify the &lt;b&gt;mirador.json&lt;/b&gt; file found in the build folder in your Github Repository. Further information on the function of the viewer can be found under [Extensions|Mirador.html] in the Technical Information section of this page.&lt;/p&gt;\r\n\r\n&lt;h3&gt;The Example&lt;/h3&gt;\r\n&lt;div class=\&quot;row\&quot; style=\&quot;padding-left:16px;padding-right:16px;\&quot;&gt;&lt;div class=\&quot;col-12 col-lg-12\&quot;&gt;&lt;div style=\&quot;height:500px;position:relative\&quot; id=\&quot;mirador\&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;\r\n&lt;br/&gt;\r\n&quot;,
-    &quot;content right&quot;: &quot;&quot;,
-    &quot;displaycode&quot;: true
-}</code></pre>
-		<figcaption class=\"figure-caption\">The complete JSON object used to define this content and layout of this page.</figcaption>
-	</figure>		<h3>Extra extension file</h3>
-	<figure>
-		<pre style="overflow-y: auto;overflow-x: hidden; border: 2px solid black;padding: 10px;max-height:400px;"><code>{
-    &quot;manifests&quot;: {
-        &quot;https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100123802477.0x000001/manifest.json&quot;: {
-            &quot;provider&quot;: &quot;The British Library&quot;
-        },
-        &quot;https://dms-data.stanford.edu/data/manifests/Parker/sk095st1718/manifest.json&quot;: {
-            &quot;provider&quot;: &quot;The Parker Library, Corpus Christi College, Cambridge&quot;
-        }
-    },
-    &quot;windows&quot;: [
-        {
-            &quot;manifestId&quot;: &quot;https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100123802477.0x000001/manifest.json&quot;,
-            &quot;canvasIndex&quot;: 14
-        },
-        {
-            &quot;manifestId&quot;: &quot;https://dms-data.stanford.edu/data/manifests/Parker/sk095st1718/manifest.json&quot;,
-            &quot;canvasIndex&quot;: 69
-        }
-    ]
-}</code></pre>
-		<figcaption class=\"figure-caption\">The complete extension file used to define extra content included in this page.</figcaption>
-	</figure>	
-	</details></div><!--/span--></div><!--/row-->    <br/>
+      <div class="container-fluid py-4"><h3>Aims, Objectives, and Reflections</h3></div></div><div class="row"><div class="col-12 col-lg-12"></div><!--/span--></div><!--/row-->    <div class="row"><div class="col-12 col-lg-12"><div class="row" style="padding-left:16px;padding-right:16px;"><div class="col-12 col-lg-12"><div style="height:500px;position:relative" id="mirador"></div></div></div><p><h2>Aims and Objectives</h2></p><p>In choosing to focus on a single type of source, my aim is to get students to critically interrogate the purpose behind the creation of each of the objects, as well as see them as historical artifacts that reflect the social and economic climate in which they were made. In this session of the module, I'm focusing primarily on <b>aim i</b>, 'introducing a multi-disciplinary approach to the study of history' by giving primacy to resources which are often seen as supporting textual sources, but rarely interrogated critically in historical discourse and <b>aim iv</b>, 'enableing students to navigate the complex and conflicting motivations of individuals from a social, economic and political perspective' by asking them to look at the authorial motivations as well as the social and economic conditions which led to the creation of each map. I would fully expect that <b>aim iii</b> may come up in conversation, especially with regard to the final source, <i>Bacon's Large Scale Plan of Manchester and Salford<i>, especially in looking at the port and railway infrastructure that is highlighted in this source.</p><p>    </p><p><h2>Reflections</h2></p><p>When approaching this task, I fundamentally wished to choose three items of a similar genre, yet items which had significant differences which would serve as the basis for an in-class discussion about the way in which the format, size, presentation, and information provided in each source inform the viewer about the time, space and audience for which it was created, as well as considering the role of authorial intention.</p><p> In choosing to present a consolidated session about these objects in a digital space as well as a physical one, I wished to draw larger conclusions about the difference between a digital and physical object, and the ways in which the praxis of digitisation informs scholarly interpretation of these items. For instance, when seen digitally, these objects are all appear to be the same size, though they are not, thereby fundamentally skewing the way in which we are able to judge fundamental aspects of the objects' form. Similarly all of the maps appear to be on the same substrate, yet Bacon's map is printed on a linen paper blend -- perhaps especially apt for a map of Manchester -- yet virtually unknowable when one just considers the digital image.</p><div class="foonote"><ul></ul></div></div><!--/span--></div><!--/row-->    <br/>
 			</div><!--/span-->
 			
 			
@@ -176,10 +109,10 @@ details[open] summary {
 
 var myMiradorInstance = Mirador.viewer({
        id: "mirador",
-       windows: [{"manifestId":"https:\/\/api.bl.uk\/metadata\/iiif\/ark:\/81055\/vdc_100123802477.0x000001\/manifest.json","canvasIndex":14},{"manifestId":"https:\/\/dms-data.stanford.edu\/data\/manifests\/Parker\/sk095st1718\/manifest.json","canvasIndex":69}],
-       manifests: {"https:\/\/api.bl.uk\/metadata\/iiif\/ark:\/81055\/vdc_100123802477.0x000001\/manifest.json":{"provider":"The British Library"},"https:\/\/dms-data.stanford.edu\/data\/manifests\/Parker\/sk095st1718\/manifest.json":{"provider":"The Parker Library, Corpus Christi College, Cambridge"}},
+       windows: [{"id":"a","manifestId":"https:\/\/www.digitalcollections.manchester.ac.uk\/iiif\/MS-LATIN-00509","canvasIndex":0},{"id":"b","manifestId":"https:\/\/www.digitalcollections.manchester.ac.uk\/view\/PR-R-15369\/1","canvasIndex":0},{"id":"c","manifestId":"https:\/\/www.digitalcollections.manchester.ac.uk\/iiif\/PR-C-00017-00070-MANCHESTER-00021","canvasIndex":0}],
+       manifests: [],
        
-       
+       workspace: {"layout":{"direction":"row","first":"a","second":{"first":"b","second":"c","direction":"row"},"splitPercentage":33.33}}
        });     
      });
 			function onLoad() {
