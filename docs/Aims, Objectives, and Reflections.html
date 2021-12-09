@@ -86,10 +86,10 @@
 
 var myMiradorInstance = Mirador.viewer({
        id: "mirador",
-       windows: ,
+       windows: [{"id":"a","manifestId":"https:\/\/www.digitalcollections.manchester.ac.uk\/iiif\/MS-LATIN-00509","canvasIndex":0},{"id":"b","manifestId":"https:\/\/www.digitalcollections.manchester.ac.uk\/view\/PR-R-15369\/1","canvasIndex":0},{"id":"c","manifestId":"https:\/\/www.digitalcollections.manchester.ac.uk\/iiif\/PR-C-00017-00070-MANCHESTER-00021","canvasIndex":0}],
        manifests: [],
        
-       
+       workspace: {"layout":{"direction":"row","first":"a","second":{"first":"b","second":"c","direction":"row"},"splitPercentage":33.33}}
        });     
      });
 			function onLoad() {
