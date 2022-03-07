@@ -2,29 +2,29 @@
 {
     "manifests": {
 	    },
-	       "https://www.digitalcollections.manchester.ac.uk/iiif/MS-LATIN-00509": {
+	       "https://cudl.lib.cam.ac.uk/iiif/MS-KK-00005-00016": {
 		    "provider": "The Univeristy of Manchester"
 	    },
-	      "https://www.digitalcollections.manchester.ac.uk/iiif/PR-R-15369": {
+	      "https://www.e-codices.unifr.ch/metadata/iiif/csg-0247/manifest.json": {
 		    "provider": "The Univeristy of Manchester"
 	    },
-	       "https://www.digitalcollections.manchester.ac.uk/iiif/PR-C-00017-00070-MANCHESTER-00021": {
+	       "https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100066462066.0x000001/manifest.json": {
 		    "provider": "The Univeristy of Manchester"
     },
     "windows": [
 	    {
 	        "id": "a",
-                "manifestId": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-LATIN-00509",
+                "manifestId": "https://cudl.lib.cam.ac.uk/iiif/MS-KK-00005-000169",
                 "canvasIndex": 0
             },
 	    	{
                 "id": "b",
-                "manifestId": "https://www.digitalcollections.manchester.ac.uk/iiif/PR-R-15369",
+                "manifestId": "https://www.e-codices.unifr.ch/metadata/iiif/csg-0247/manifest.json",
                 "canvasIndex": 0
             },
 	      {
                 "id": "c",
-           	"manifestId": "https://www.digitalcollections.manchester.ac.uk/iiif/PR-C-00017-00070-MANCHESTER-00021",
+           	"manifestId": "https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100066462066.0x000001/manifest.json",
                 "canvasIndex": 0
             }
     ],
