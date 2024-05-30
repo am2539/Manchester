@@ -19,7 +19,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
 
     # Runs commands using the runners shell
     - name: Run the build php script
@@ -29,7 +29,8 @@ jobs:
         cd ../
     - name: Commit files  # transfer the new html files back into the repository
       run: |
-        git config --local user.name  ${{ github.actor }}
+        git config --local user.name  ${{ github.actor }}        
+        git config --local user.email "${{ github.actor }}@users.noreply.github.com"
         git add ./docs
         git commit -m "Updating the repository GitHub html pages in the docs folder"
     - name: Push changes  # push the output folder to your repo
